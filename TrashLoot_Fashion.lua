@@ -10,5 +10,6 @@ TrashLoot_STSC:SetScript("OnEvent", function()
         if name == "Fashion Coin" then
             RollOnLoot(rollID, 1)
 			StaticPopup1Button1:Click()
+		end
         end
 end)
